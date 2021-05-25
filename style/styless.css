@@ -1,0 +1,22 @@
+body{
+    background-color: green;
+}
+
+@media only screen and (max-width: 480px) {
+    .small {
+      background-color: rgba(156, 11, 11, 0.822);
+
+    }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1024px) { 
+    .medium {
+        background-color: rgba(116, 236, 126, 0.856);
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .large {
+      background-color: rgba(88, 216, 255, 0.884);
+    }
+  }
